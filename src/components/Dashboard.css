@@ -1,0 +1,105 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+#appBar {
+  background-color: rgb(82, 175, 206);
+  text-decoration-color: white;
+  font-style: normal;
+  font-size: larger;
+  margin-top: 12px;
+  font-family: serif;
+  font-weight: bold;
+  width: 103%;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  display: flex;
+  margin-top: 0px;
+  width: 700px;
+  height: 29px;
+}
+.sendButton {
+  margin-top: 2px;
+  margin-left: 10px;
+  width: 45px;
+  height: 31px;
+}
+.inputStyle {
+  display: flex;
+  margin: 10px 0 0 15px;
+}
+
+.list-username {
+  width: 25%;
+  background: #5685ad;
+}
+
+.users {
+  background-color: #20881c;
+  padding: 20px;
+}
+
+.List {
+  background: #5685ad;
+  padding: 15px;
+  height: 400px;
+}
+
+.chat-box-width {
+  width: 80%;
+}
+
+.ChatBox {
+  width: 100%;
+  background: #6db8f9;
+  padding: 15px;
+  height: 441px;
+}
+
+.chatApp {
+  width: 100%;
+  background: aliceblue;
+  padding: 15px;
+  display: flex;
+}
+
+.LogOutButton {
+  width: 80px;
+  height: 35px;
+  position: relative;
+  margin-left: 360px;
+  margin-top: 10px;
+}
+
+.p {
+  text-align: center;
+  display: block;
+  margin-left: 500px;
+}
+.senderMessage {
+  background-color: rgb(91, 104, 177);
+  height: 32px;
+  width: 451px;
+  float: right;
+  align-items: center;
+
+  
+}
+
+.receiverMessage {
+  background-color: rgb(186, 183, 216);
+  height: 32px;
+  width: 451px;
+  float: left;
+  align-items: center;
+
+  
+}
+
+.senderMessage,.receiverMessage{
+  clear: both;
+}

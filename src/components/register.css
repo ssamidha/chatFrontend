@@ -1,0 +1,55 @@
+*{
+  /*box sizing border-box;*/
+  font-family: 'Roboto',sans-serif;
+}
+.maindiv{
+  background-color:rgb(184, 217, 223);
+  background-size: 21px 21px;
+  text-align:center;
+  padding: 90px;
+  width: 300px;
+  height:500px;
+  margin: 400px;
+  margin-top: 30px;
+}
+
+#register{
+  font-style: initial;
+  font-size : x-large;
+  margin-top: -8px;
+  font-weight: bold;
+}
+
+
+
+#firstName{
+  width: 250px; height: 20px;
+}
+
+#lastName{
+  width: 250px; height: 20px;
+}
+
+#email{
+  width: 250px; height: 20px;
+}
+
+#password{
+  width: 250px; height: 20px;
+}
+
+
+
+#registerButton{
+  height: 35px;
+  width: 250px;
+  margin-top: 20px;
+}
+
+#loginButton{
+
+  height:35px;
+  width: 250px;
+  margin-top: 20px;
+}
+
