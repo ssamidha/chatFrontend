@@ -88,8 +88,8 @@ class Login extends Component {
         if (res.data.success === true) {
           alert("Login Successful..!!!");
           this.props.history.push('/dashboard');
-          localStorage.setItem("senderEmail",res.data.data.email);
-          localStorage.setItem("senderId",res.data.data._id);
+          sessionStorage.setItem("senderEmail",res.data.data.email);
+          sessionStorage.setItem("senderId",res.data.data._id);
           //localStorage.setItem("LoginToken", res.data.token.token);
         } else {
           if (res.data.message === "Password is incorrect") {

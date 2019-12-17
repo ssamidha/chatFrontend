@@ -42,7 +42,7 @@ export function getAllUser() {
 
 export function getAllMessages() {
   var messages = axios.get(url + "/getMessage");
-  console.log("messages in services",messages);
+  // console.log("messages in services",messages);
   
 
   return messages;

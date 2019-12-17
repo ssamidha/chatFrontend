@@ -55,6 +55,7 @@
 
 .ChatBox {
   width: 100%;
+  overflow-y: auto;
   background: #6db8f9;
   padding: 15px;
   height: 441px;
@@ -102,4 +103,5 @@
 
 .senderMessage,.receiverMessage{
   clear: both;
+  margin: 10px;
 }
